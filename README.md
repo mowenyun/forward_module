@@ -1,4 +1,4 @@
-# OCD's AllInOne Widgets
+# mowenyu Widgets
 
 自动合并多个 Forward Widgets 源并生成两份可用模块：
 
