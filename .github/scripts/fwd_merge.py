@@ -228,7 +228,7 @@ if os.path.exists(old_fwd_path):
 # ================================================================
 
 result_main = {
-    "title": "OCD's AllInOne Widgets",
+    "title": "mowenyu Widgets",
     "description": "合并后的模块（使用原始 URL）",
     "icon": "https://avatars.githubusercontent.com/u/25606004",
     "widgets": list(merged.values())
@@ -257,7 +257,7 @@ for w in merged.values():
     backup_widgets.append(w2)
 
 result_backup = {
-    "title": "OCD's AllInOne Widgets (Backup)",
+    "title": "mowenyu Widgets (Backup)",
     "description": "所有 widgets 使用备份 RAW URL",
     "icon": "https://avatars.githubusercontent.com/u/25606004",
     "widgets": backup_widgets
@@ -276,7 +276,7 @@ print(f"🎉 生成完成：{backup_file}")
 # ================================================================
 
 readme = (
-    "# OCD's AllInOne Widgets\n\n"
+    "# mowenyu Widgets\n\n"
     "自动合并多个 Forward Widgets 源并生成两份可用模块：\n\n"
     "- **allinone.fwd**（使用原始 URL）\n"
     "- **allinone_back.fwd**（使用仓库 RAW 备份 URL）\n\n"
