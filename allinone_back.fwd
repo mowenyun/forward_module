@@ -325,7 +325,7 @@
       "requiredVersion": "0.0.1",
       "version": "2.1.0",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/animeone.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/anime_omni_fix.js"
     },
     {
       "id": "western_trends_hub",
@@ -334,7 +334,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.1",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/bangdan-one.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/western_trends_hub.js"
     },
     {
       "id": "global_tv_calendar_ultimate",
@@ -343,7 +343,7 @@
       "requiredVersion": "0.0.1",
       "version": "2.0.5",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/zhuijurili-one.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/global_tv_calendar_ultimate.js"
     },
     {
       "id": "cinephile_hub_ultimate",
@@ -352,7 +352,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.3",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/movielist%26interesting.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/cinephile_hub_ultimate.js"
     },
     {
       "id": "discover_hub_ultimate",
@@ -361,7 +361,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.4",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/today-one.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/discover_hub_ultimate.js"
     },
     {
       "id": "ultimate_media_hub_pro_ui",
@@ -370,7 +370,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.2.0",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/cn-int-bangdan.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/ultimate_media_hub_pro_ui.js"
     },
     {
       "id": "platform.originals.ui.fix",
@@ -379,7 +379,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.4",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/pingtaidujia.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/platform.originals.ui.fix.js"
     },
     {
       "id": "forward.danmu.pro.online_dict",
@@ -388,7 +388,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.8",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/danmuapi-pro.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/forward.danmu.pro.online_dict.js"
     },
     {
       "id": "movie_paradise",
