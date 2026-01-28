@@ -319,6 +319,78 @@
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/unknow.baranwang.xvideos.js"
     },
     {
+      "id": "anime_omni_fix",
+      "title": "二次元全境聚合",
+      "description": "一站式聚合多平台动漫榜单。",
+      "requiredVersion": "0.0.1",
+      "version": "2.1.0",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/animeone.js"
+    },
+    {
+      "id": "western_trends_hub",
+      "title": "欧美风向标|口碑与热度",
+      "description": "聚合烂番茄(口碑)与流媒体平台(热度)，一站式掌握欧美影视动态。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.1",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/bangdan-one.js"
+    },
+    {
+      "id": "global_tv_calendar_ultimate",
+      "title": "全球追剧时刻表",
+      "description": "聚合全球剧集更新与综艺排期，支持国家筛选。",
+      "requiredVersion": "0.0.1",
+      "version": "2.0.5",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/zhuijurili-one.js"
+    },
+    {
+      "id": "cinephile_hub_ultimate",
+      "title": "影迷宝藏 | 系列与流派",
+      "description": "聚合【系列电影大满贯】与【趣味流派探索】，一键补番，探索未知。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.3",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/movielist%26interesting.js"
+    },
+    {
+      "id": "discover_hub_ultimate",
+      "title": "探索发现 | 惊喜推荐",
+      "description": "聚合【今天看什么】、【Trakt惊喜推荐】与【那年今日】、一站式发现好片。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.4",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/today-one.js"
+    },
+    {
+      "id": "ultimate_media_hub_pro_ui",
+      "title": "全球影视 | 分流聚合",
+      "description": "集大成之作：Trakt/豆瓣/平台分流，全线支持【年份•类型】展示。",
+      "requiredVersion": "0.0.1",
+      "version": "1.2.0",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/cn-int-bangdan.js"
+    },
+    {
+      "id": "platform.originals.ui.fix",
+      "title": "流媒体·独家原创",
+      "description": "发现Netflix/HBO/腾讯/B站等平台自制内容",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.4",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/pingtaidujia.js"
+    },
+    {
+      "id": "forward.danmu.pro.online_dict",
+      "title": "多源弹幕",
+      "description": "支持添加多条api并自命名&繁简互转",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.8",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/danmuapi-pro.js"
+    },
+    {
       "id": "movie_paradise",
       "title": "在线影院",
       "description": "获取在线电影、电视剧、动漫、综艺和短剧",
