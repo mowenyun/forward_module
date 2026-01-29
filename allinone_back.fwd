@@ -197,7 +197,7 @@
       "title": "自动链接弹幕v2",
       "description": "自动获取播放链接并从服务器获取弹幕【30% off code：CHEAP】",
       "requiredVersion": "0.0.2",
-      "version": "1.13.1",
+      "version": "1.13.2",
       "author": "huangxd",
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/forward.auto.danmu.js"
     },
@@ -326,6 +326,15 @@
       "version": "2.1.0",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/anime_omni_fix.js"
+    },
+    {
+      "id": "trakt_personal_mixed",
+      "title": "Trakt 个人中心",
+      "description": "追剧日历:显示你观看剧集最新集的 更新时间&Trakt 待看/收藏/历史。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.6",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/traktlistpro.js"
     },
     {
       "id": "western_trends_hub",
