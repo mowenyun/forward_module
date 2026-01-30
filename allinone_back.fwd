@@ -323,18 +323,27 @@
       "title": "二次元全境聚合",
       "description": "一站式聚合多平台动漫榜单。",
       "requiredVersion": "0.0.1",
-      "version": "2.1.0",
+      "version": "2.2.1",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/anime_omni_fix.js"
     },
     {
       "id": "trakt_personal_mixed",
-      "title": "Trakt 个人中心",
+      "title": "Trak 追剧日历&个人中心",
       "description": "追剧日历:显示你观看剧集最新集的 更新时间&Trakt 待看/收藏/历史。",
       "requiredVersion": "0.0.1",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/traktlistpro.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/trakt_personal_mixed.js"
+    },
+    {
+      "id": "variety_hub_ultimate_v4_fix",
+      "title": "全球综艺追更热度榜",
+      "description": "综艺更新时间表，热度榜",
+      "requiredVersion": "0.0.1",
+      "version": "2.0.3",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/zongyi.js"
     },
     {
       "id": "western_trends_hub",
@@ -348,9 +357,9 @@
     {
       "id": "global_tv_calendar_ultimate",
       "title": "全球追剧时刻表",
-      "description": "聚合全球剧集更新与综艺排期，支持国家筛选。",
+      "description": "聚合全球剧集更新&综艺排期&bangumi动漫周更表。",
       "requiredVersion": "0.0.1",
-      "version": "2.0.5",
+      "version": "2.0.8",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/global_tv_calendar_ultimate.js"
     },
@@ -377,7 +386,7 @@
       "title": "全球影视 | 分流聚合",
       "description": "集大成之作：Trakt/豆瓣/平台分流，全线支持【年份•类型】展示。",
       "requiredVersion": "0.0.1",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/ultimate_media_hub_pro_ui.js"
     },
