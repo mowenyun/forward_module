@@ -460,16 +460,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.3",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/imdb%26cn.js"
-    },
-    {
-      "id": "forward.danmu.pro.online_dict",
-      "title": "多源弹幕",
-      "description": "支持添加多条api并自命名&繁简互转",
-      "requiredVersion": "0.0.1",
-      "version": "1.0.9",
-      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/forward.danmu.pro.online_dict.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/imdb_cn_fix_.js"
     },
     {
       "id": "forward.combined.media.lists.en",

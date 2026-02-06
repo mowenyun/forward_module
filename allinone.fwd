@@ -511,7 +511,7 @@
       "version": "1.0.3",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://raw.githubusercontent.com/MakkaPakka518/ForwardWidgets/refs/heads/main/widgets/hebingban/imdb%26cn.js",
-      "backup_url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/imdb%26cn.js"
+      "backup_url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/imdb_cn_fix_.js"
     },
     {
       "id": "forward.combined.media.lists.en",
