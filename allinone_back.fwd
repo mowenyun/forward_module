@@ -71,7 +71,7 @@
       "title": "热门精选",
       "description": "获取最新热播剧和热门影片推荐",
       "requiredVersion": "0.0.1",
-      "version": "1.1.7",
+      "version": "1.5.37",
       "author": "两块",
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/hot_picks.js"
     },
@@ -128,15 +128,6 @@
       "version": "1.0.10",
       "author": "huangxd",
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/live.js"
-    },
-    {
-      "id": "tv_live",
-      "title": "电视台",
-      "description": "获取热门电视直播频道",
-      "requiredVersion": "0.0.1",
-      "version": "1.1.6",
-      "author": "两块",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/tv_live.js"
     },
     {
       "id": "ti.bemarkt.podcast",
@@ -238,6 +229,24 @@
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/wuming.vod.js"
     },
     {
+      "id": "Move_lists",
+      "title": "影视榜单",
+      "description": "白名单用户独享模块",
+      "requiredVersion": "0.0.2",
+      "version": "2.0.0",
+      "author": "𝓑𝓾𝓽𝓽𝓮𝓻𝓯𝓵𝔂",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/move_lists.js"
+    },
+    {
+      "id": "baranwang.danmu.universe",
+      "title": "通用弹幕",
+      "description": "通用弹幕插件，支持腾讯、优酷、爱奇艺、哔哩哔哩、人人视频等平台",
+      "requiredVersion": "0.0.2",
+      "version": "0.15.1",
+      "author": "Baran",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/baranwang.danmu.universe.js"
+    },
+    {
       "id": "ONE",
       "title": "ONE",
       "description": "4K剧集综艺影视",
@@ -274,6 +283,15 @@
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/jp_vod_full.js"
     },
     {
+      "id": "tv_live",
+      "title": "电视台",
+      "description": "获取热门电视直播频道",
+      "requiredVersion": "0.0.1",
+      "version": "1.1.6",
+      "author": "两块",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/tv_live.js"
+    },
+    {
       "id": "JAVDB",
       "title": "JAVDB",
       "description": "JAVDB在线看",
@@ -296,7 +314,7 @@
       "title": "Hanime1",
       "description": "获取 Hanime1 动画，折扣码gold",
       "requiredVersion": "0.0.2",
-      "version": "2.1.1",
+      "version": "2.2.0",
       "author": "gr294949",
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/hanime1_me_style.js"
     },
@@ -436,22 +454,13 @@
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/danmu.pro_dict.js"
     },
     {
-      "id": "Move_lists",
-      "title": "影视榜单",
-      "description": "白名单用户独享模块",
-      "requiredVersion": "0.0.2",
-      "version": "2.0.0",
-      "author": "𝓑𝓾𝓽𝓽𝓮𝓻𝓯𝓵𝔂",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/move_lists.js"
-    },
-    {
-      "id": "baranwang.danmu.universe",
-      "title": "通用弹幕",
-      "description": "通用弹幕插件，支持腾讯、优酷、爱奇艺、哔哩哔哩、人人视频等平台",
-      "requiredVersion": "0.0.2",
-      "version": "0.15.1",
-      "author": "Baran",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/baranwang.danmu.universe.js"
+      "id": "imdb_cn_fix_",
+      "title": "IMDb热榜",
+      "description": "IMDb全球榜单，支持日/周纬度切换。",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.3",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/imdb%26cn.js"
     },
     {
       "id": "forward.danmu.pro.online_dict",
