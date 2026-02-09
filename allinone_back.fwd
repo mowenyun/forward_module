@@ -188,7 +188,7 @@
       "title": "自动链接弹幕v2",
       "description": "自动获取播放链接并从服务器获取弹幕【30% off code：CHEAP】",
       "requiredVersion": "0.0.2",
-      "version": "1.13.6",
+      "version": "1.14.0",
       "author": "huangxd",
       "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/forward.auto.danmu.js"
     },
@@ -352,7 +352,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.4",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/ysbd.js"
+      "url": "https://raw.githubusercontent.com/mowenyun/forward_module/master/widgets/forward.combined.makkapakka.js"
     },
     {
       "id": "imdb_cn_fix_",
