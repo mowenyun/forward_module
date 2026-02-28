@@ -3,7 +3,7 @@ WidgetMetadata = {
     title: "IMDb热榜",
     author: "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
     description: "IMDb全球榜单，支持日/周维度切换。",
-    version: "1.0.3",
+    version: "1.0.5", // 🚀 升级版本号：将榜单类型移至右上角快捷菜单
     requiredVersion: "0.0.1",
     site: "https://www.themoviedb.org",
     globalParams: [],
@@ -11,11 +11,11 @@ WidgetMetadata = {
         {
             title: "🔥 影视榜单",
             functionName: "loadImdbList",
-            type: "list",
+            type: "video", // 升级为 video 排版模式，保持 UI 统一
             cacheDuration: 3600,
             params: [
                 {
-                    name: "category",
+                    name: "sort_by", // 👈 魔法字段：把 category 改为 sort_by 触发右上角菜单
                     title: "榜单类型",
                     type: "enumeration",
                     value: "trending_week",
@@ -33,7 +33,8 @@ WidgetMetadata = {
                     title: "范围 (仅全球榜有效)",
                     type: "enumeration",
                     value: "all",
-                    belongTo: { paramName: "category", value: ["trending_week", "trending_day", "popular", "top_rated"] },
+                    // 👇 联动依赖名同步修改为 sort_by
+                    belongTo: { paramName: "sort_by", value: ["trending_week", "trending_day", "popular", "top_rated"] },
                     enumOptions: [
                         { title: "全部 (剧集+电影)", value: "all" },
                         { title: "电影", value: "movie" },
@@ -65,7 +66,8 @@ function buildItem(item, forceType) {
     if (!item) return null;
     const type = forceType || item.media_type || (item.title ? "movie" : "tv");
     const title = item.title || item.name;
-    const year = (item.release_date || item.first_air_date || "").substring(0, 4);
+    const fullDate = item.release_date || item.first_air_date || ""; // 提取完整日期
+    const year = fullDate.substring(0, 4);
     const score = item.vote_average ? item.vote_average.toFixed(1) : "0.0";
     const genre = getGenreText(item.genre_ids);
 
@@ -75,18 +77,25 @@ function buildItem(item, forceType) {
         type: "tmdb",
         mediaType: type,
         title: title,
-        subTitle: `⭐ ${score} | ${year}`,
+        
+        // 横竖版适配：将完整日期拼接到副标题或简介位置
+        subTitle: fullDate ? `⭐ ${score} | ${fullDate}` : `⭐ ${score}`,
+        description: fullDate ? `${fullDate} · ⭐ ${score}\n${item.overview || "暂无简介"}` : item.overview,
+        
+        // 传递给内核，提取横版年份
+        releaseDate: fullDate,
+        
         posterPath: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
         backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w780${item.backdrop_path}` : "",
-        description: item.overview,
-        rating: score,
+        rating: parseFloat(score) || 0,
         year: year,
-        genreTitle: [year, genre].filter(Boolean).join(" • ")
+        genreTitle: genre || (type === "tv" ? "剧集" : "电影") // 优化横版类型显示
     };
 }
 
 async function loadImdbList(params) {
-    const category = params.category || "trending_week";
+    // 👈 逻辑接管：从 sort_by 获取分类，如果没有则默认取 trending_week
+    const category = params.sort_by || "trending_week";
     const mediaType = params.mediaType || "all";
     const page = params.page || 1;
 
